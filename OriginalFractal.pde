@@ -27,7 +27,7 @@ public void mouseClicked(){
 	values.add(50.0);
 	//println(colors[0]);
 	values.add((float)((int)(Math.random()*colors.length)));
-	fracs.add(values);
+	fracs.add(0,values);
 	fractal(mouseX,mouseY,50);
 }
 
